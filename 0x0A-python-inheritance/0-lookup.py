@@ -1,8 +1,8 @@
 #!/usr/bin/python3                                                                                                                                       
 """                                                                                                                                                      
-Module 0-lookup                                                                                                                                          
-We are tp write a                                                                                                                                        
-function that returns the list of available attributes and methods of an object                                                                          
+Module 0-lookup
+Function that returns the list of available attributes
+and methods of an object
 """                                                                                                                                                      
                                                                                                                                                          
                                                                                                                                                          
