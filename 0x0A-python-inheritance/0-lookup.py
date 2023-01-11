@@ -12,5 +12,6 @@ def lookup(obj):
         obj: instance of the class                                                                                                              
     Returns:                                                                                                                                             
         List of attributes                                                                                                                               
-    """                                                                                                                                                  
+    """
+    
     return dir(obj)        
