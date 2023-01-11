@@ -11,8 +11,8 @@ Function that returns True/False if obj is a type of a_class
         obj: object
         a_class: class type
     Returns:
-        True: if the object is an instance of a class
-        False: Otherwise
+        True if the object is an instance of a class
+        False, Otherwise
     """
     if isinstance(obj, a_class):
         return True
