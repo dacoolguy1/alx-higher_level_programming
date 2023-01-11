@@ -5,6 +5,7 @@ We are tp write a
 function that returns the list of available attributes and methods of an object
 """
 
+
 def lookup(obj):
     """
     Args: 
