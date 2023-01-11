@@ -6,17 +6,15 @@ and methods of an object
 """
 
 
-class Mylist(list):
+class MyList(list):
     """ Class that inherits the attributes references of class list
     Args:
         list: class list
     """
 
     def print_sorted(self):
-        """Print the lists in a sorted ascending manner"""
+        """ Method that prints the sorted list """
 
-        cpy_list = self.copy()
-        cpy_list.sort()
-        print("{}".format(cpy_list))
-
-        
+        list_cpy = self.copy()
+        list_cpy.sort()
+        print("{}".format(list_cpy))
