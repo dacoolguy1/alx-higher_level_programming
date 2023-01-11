@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Module 1-my_list
-Function that returns the list of available attributes
+Function that return the list of available attributes
 and methods of an object
 """
 
