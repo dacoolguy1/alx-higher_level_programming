@@ -1,11 +1,11 @@
-#!/usr/bin/python3                                                                                                                                       
-"""                                                                                                                                                      
+#!/usr/bin/python3
+"""
 Module 0-lookup
 Function that returns the list of available attributes
 and methods of an object
-"""                                                                                                                                                      
-                                                                                                                                                         
-                                                                                                                                                         
+"""
+
+
 def lookup(obj):
     """
     Args:
@@ -15,3 +15,5 @@ def lookup(obj):
     """
 
     return dir(obj)
+
+  
