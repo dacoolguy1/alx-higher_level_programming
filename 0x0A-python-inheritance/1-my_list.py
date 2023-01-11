@@ -1,8 +1,9 @@
-#!/usr/bin/python3
 """
 Module 1-my_list
-Class that inherits from list
+Function that returns the list of available attributes
+and methods of an object
 """
+
 
 
 class Mylist(list):
