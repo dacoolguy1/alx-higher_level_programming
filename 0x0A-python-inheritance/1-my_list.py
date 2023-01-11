@@ -1,18 +1,19 @@
 #!/usr/bin/python3
 """
 Module 1-my_list
-Class that inherits from list
+Function that return the list of available attributes
+and methods of an object
 """
 
 
-class Mylist(list):
-    """
+class MyList(list):
+    """ Class that inherits the attributes references of class list
     Args:
         list: class list
     """
 
     def print_sorted(self):
-        """Print the lists in a sorted ascending manner"""
+        """ Method that prints the sorted list """
 
         cpy_list = self.copy()
         cpy_list.sort()
