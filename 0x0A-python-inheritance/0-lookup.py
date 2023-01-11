@@ -6,12 +6,12 @@ and methods of an object
 """                                                                                                                                                      
                                                                                                                                                          
                                                                                                                                                          
-def lookup(obj):                                                                                                                                         
-    """                                                                                                                                                  
-    Args:                                                                                                                                                
-        obj: instance of the class                                                                                                              
-    Returns:                                                                                                                                             
-        List of attributes                                                                                                                               
+def lookup(obj):
     """
-    
-    return dir(obj)        
+    Args:
+        obj: instance of the class
+    Returns:
+        List of attributes
+    """
+
+    return dir(obj)
