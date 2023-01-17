@@ -12,6 +12,7 @@ class Base:
     """
     __nb_objects = 0 
     """ a private atttribute hence it ca only be acceed inside this class"""
+    
     def __init__(self, id=None):
         """ initializes objects attributes"""
         if id is not None:
