@@ -111,5 +111,5 @@ class Rectangle(Base):
         list_atr = ["id", "width", "height", "x", "y"]
         dictr = {}
         for items in list_atr:
-            dictr[items] = getattr(self, key)
+            dictr[items] = getattr(self, items)
         return dictr
