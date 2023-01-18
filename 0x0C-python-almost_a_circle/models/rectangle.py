@@ -96,9 +96,12 @@ class Rectangle(Base):
 
         return str_rect + str_id + str_xy + str_wh
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """update function, we will use setattr function"""
         if args is not None and len(args) is not 0:
             list_atr = ["id", "width", "height", "x", "y"]
             for items in range(len(args)):
                 setattr(self, list_atr[items], args[items])
+        else:
+            for keys, values in kwargs.items():
+                setattr(self, key, value)
