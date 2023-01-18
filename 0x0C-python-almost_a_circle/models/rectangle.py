@@ -5,7 +5,7 @@ from class base
 from models.base import Base
 
 
-class Rectangle(base):
+class Rectangle(Base):
     """
     it inherits its properties from base
     """
