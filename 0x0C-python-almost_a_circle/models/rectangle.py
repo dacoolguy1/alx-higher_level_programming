@@ -101,4 +101,4 @@ class Rectangle(Base):
         if args is not None and len(args) is not 0:
             list_atr = ["id", "width", "height", "x", "y"]
             for items in range(len(args)):
-                setattr(self, list_atr[items], arg[items])
+                setattr(self, list_atr[items], args[items])
