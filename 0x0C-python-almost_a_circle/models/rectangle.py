@@ -98,7 +98,7 @@ class Rectangle(Base):
 
     def update(self, *args):
         """update function, we will use setattr function"""
-        if args is not None and len(args)  > 0:
+        if args is not None and len(args) is not 0:
             list_atr = ["id", "width", "height", "x", "y"]
             for items in range(len(args)):
-                setattr(self, list_atr[i], arg[i])
+                setattr(self, list_atr[items], arg[items])
