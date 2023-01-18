@@ -78,7 +78,8 @@ class Rectangle(Base):
 
     def display(self):
         """print rectangle using special character"""
-        
+        for juse in range(self.__y):
+            print()
         for i in range(self.__height):
             for y in range(self.__x):
                 print(" ", end="")
