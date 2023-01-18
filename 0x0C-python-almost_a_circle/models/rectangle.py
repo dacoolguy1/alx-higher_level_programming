@@ -95,3 +95,10 @@ class Rectangle(Base):
         str_wh = "{}/{}".format(self.width, self.height)
 
         return str_rect + str_id + str_xy + str_wh
+
+    def update(self, *args):
+        """update function, we will use setattr function"""
+        if args is not None and len(args)  > 0:
+            list_atr = ["id", "width", "height", "x", "y"]
+            for items in range(len(args)):
+                setattr(self, list_atr[i], arg[i])
