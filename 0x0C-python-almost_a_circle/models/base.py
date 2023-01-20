@@ -6,6 +6,9 @@ id with this argument value
 otherwise, increment __nb_objects and assign the new value
 to the public instance attribute id
 """
+import json
+import csv
+import os.path
 
 
 class Base:
