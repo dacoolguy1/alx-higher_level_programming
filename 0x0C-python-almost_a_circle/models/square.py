@@ -15,10 +15,11 @@ class Square(Rectangle):
         super().__init__(size, size, x, y, id)
         self.size = size
 
-    def __str__(self):
-        """special method"""
-        str_rect = "[Square] "
+        def __str__(self):
+        """ str special method """
+        str_square = "[Square] "
         str_id = "({}) ".format(self.id)
         str_xy = "{}/{} - ".format(self.x, self.y)
-        str_size = "{}/{}".format(self.width, self.height)
-        return str_rect + str_id + str_xy + str_size
+        str_wh = "{}/{}".format(self.width, self.height)
+
+        return str_square + str_id + str_xy + str_wh
