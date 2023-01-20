@@ -20,5 +20,5 @@ class Square(Rectangle):
         str_rect = "[Square]"
         str_id = "({}) ".format(self.id)
         str_xy = "{}/{} ".format(self.x, self.y)
-        str_size = "- {}".format(self.size)
+        str_size = "- {}/{}".format(self.width, self.height)
         return str_rect + str_id + str_xy + str_size
